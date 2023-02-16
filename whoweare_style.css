@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Bitter:wght@500&family=Bree+Serif&family=Inter:wght@100;200;300;400;500&family=Outfit:wght@100;200;300;400;500&family=Righteous&display=swap');
+
+
+html{
+    background-color: #faecde;
+}
+
+
+body{
+    margin: auto;
+}
+
+#Logo{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+
+header ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4rem;
+    margin-left: 0.5rem;
+}
+
+
+header ul li{
+    list-style-type: none;
+    font-family: "Outfit";
+    font-weight: 400;
+    font-size: 25px;
+    color: rgb(54, 41, 41);
+    padding: 1rem;
+    border-bottom: 2px solid rgb(54, 41, 41);
+    width: 100%;
+    text-align: center;
+    margin-right: 3rem;
+}
+
+
+header ul a{
+    color:rgb(54, 41, 41);
+    text-decoration: none;
+}
+
+a:hover{
+    color: white;
+}
+
+
+#mainline{
+    
+    text-align: center;
+    padding: 5rem;
+    margin: 0px;
+    font-family: "Outfit";
+    font-weight: 200;
+    font-size: 60px;
+    border-style: hidden;
+    background-color: white;  
+}
+
+
+#small{
+    font-size: 35px;
+}
+
+
+.righteous{
+    font-family: "Righteous";
+}
+
+
+.maintitle{
+    font-family: "Arvo";
+    font-size: 32px;
+    color: rgb(54, 41, 41);
+    margin-left: 3rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    
+}
+
+.co{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Outfit";
+    font-size: 22px;
+    margin-left: 2rem;
+}
+
+.co p{
+    border: 3px white solid;
+    margin-right: 3rem;
+    padding: 1.5rem;
+    border-radius: 15%;
+    margin-left: 1rem;
+}
+
+
+.co img{
+    margin-right: 2rem;
+    border-radius: 10px;
+}
+
+footer ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 5rem;
+    border: hidden;
+    padding: 5rem;
+    background-color: #6e635b;
+    margin-right: 0px;
+    margin-bottom: 0px;
+   
+}
+
+footer ul li{
+    padding: 1rem;
+    list-style-type: none;
+    font-family: "Bree Serif";
+    color: white;
+    font-size: smaller;
+    white-space: nowrap;
+}
+
+
+@media screen and (min-width:550px){
+
+    #mainpic{
+    
+        margin-left:9rem;
+    }
+     
+}
+
+
+@media screen and (min-width:750px){
+
+
+body{
+    margin:0px;
+}
+
+
+#Logo{
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    justify-content: flex-start;
+    margin: 1rem;
+    margin-left: 3.5rem;
+}
+
+
+header ul{
+    margin-top: 0.5rem;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+header ul li{
+    white-space: nowrap;
+    border: none;
+    padding-left: 3rem;
+    padding-top: 1.5rem;
+}
+    
+
+#bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+#ornam{
+    box-sizing: border-box;
+    border-style: hidden;
+    padding: 2rem;
+}
+
+.co{
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 5rem;
+    margin-top: 4rem;
+}  
+
+.co p{
+    padding: 3rem;
+    margin-right: 3rem;
+    border-radius: 20%;
+}
+
+
+footer ul{
+    justify-content: center;
+  }
+  
+  
+footer ul li{
+      padding-right: 2rem;
+  }
+  
+}
