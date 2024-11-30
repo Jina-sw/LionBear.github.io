@@ -9,10 +9,13 @@
 <img width="1102" alt="image" src="https://github.com/user-attachments/assets/1d6dfffb-8827-486e-915b-57238fd3cc98">
 
 # What It Does
+A website for an imaginary coffee house called "LionBear." My personal interest - coffee tasting newly revived into a web application.
 
 # Tech Stacks
+Vanilla CSS and HTML
 
 # Accomplishment I am proud of
+This is the first-ever web project I developed by myself without any external help. I referred to trendy website UI to provide better UX for customers of LionBear Coffee Roasters. It seems like the result came out really well!
 
 # Challenges I encountered
 
